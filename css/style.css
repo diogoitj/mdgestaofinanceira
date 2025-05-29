@@ -630,7 +630,7 @@ img {
         position: fixed;
         top: 80px;
         left: -100%;
-        width: 100%;
+        width: 50%;
         height: calc(100vh - 80px);
         background-color: var(--white-color);
         flex-direction: column;
@@ -644,8 +644,10 @@ img {
     }
     
     .nav-link {
-        padding: 15px 0;
-        font-size: 20px;
+        padding: 10px 0; /* Aumenta o espaçamento vertical */
+        font-size: 20px; /* Mantém o tamanho da fonte */
+        display: block; /* Garante que cada link ocupe toda a largura disponível */
+        margin-bottom: 15px; /* Adiciona mais espaço entre os itens */
     }
     
     .hero-content h1 {
