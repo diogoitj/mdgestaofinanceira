@@ -630,7 +630,7 @@ img {
         position: fixed;
         top: 80px;
         left: -100%;
-        width: 50%;
+        width: 100%;
         height: calc(100vh - 80px);
         background-color: var(--white-color);
         flex-direction: column;
