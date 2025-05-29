@@ -390,6 +390,11 @@ img {
     font-size: 24px;
     margin-right: 20px;
     margin-top: 5px;
+    color: var(--primary-color);
+}
+
+.info-item i.fa-whatsapp {
+    color: #25D366;
 }
 
 .info-item h3 {
